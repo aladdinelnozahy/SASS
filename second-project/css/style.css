@@ -1,0 +1,110 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap" rel="stylesheet">');
+* {
+  text-align: center;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+header {
+  background-color: #292828; }
+  header .logo {
+    color: #36c7cc;
+    font-size: 30px;
+    font-family: 'lobster',cursive; }
+  header .menu {
+    padding-top: 10px;
+    text-align: left; }
+    header .menu li {
+      list-style: none;
+      display: inline-block;
+      padding: 5px; }
+      header .menu li a {
+        color: #36c7cc;
+        padding: 0 10 px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s; }
+        header .menu li a:hover {
+          color: #dfec2c; }
+
+.main-content {
+  background-image: url(../img/office2.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: 100% 50%; }
+  .main-content .main-content-wraper {
+    position: absolute;
+    text-align: center;
+    text-align: justify;
+    margin-top: 17%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    -webkit-transition: translate(-50%, -50%);
+    -moz-transition: translate(-50%, -50%);
+    -ms-transition: translate(-50%, -50%);
+    -o-transition: translate(-50%, -50%); }
+    .main-content .main-content-wraper h1 {
+      text-align: center;
+      text-align: justify;
+      color: #333232;
+      font-family: 'lobster',cursive; }
+
+.portofolio .portofolio-title h1 {
+  color: #36c7cc;
+  font-size: 40px;
+  font-family: 'Lobster',cursive; }
+.portofolio .portofolio-title p {
+  font-family: "heebo";
+  padding: 50px 100px; }
+.portofolio .portofolio-content .portofolio-imgs .overlay-relative {
+  position: relative;
+  overflow: hidden; }
+  .portofolio .portofolio-content .portofolio-imgs .overlay-relative:hover .overlay {
+    top: 30%; }
+  .portofolio .portofolio-content .portofolio-imgs .overlay-relative img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 20px; }
+  .portofolio .portofolio-content .portofolio-imgs .overlay-relative .overlay {
+    background-color: #302e2eb6;
+    border-radius: 20px;
+    position: absolute;
+    left: 10%;
+    top: -100%;
+    width: 80%;
+    color: white;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s; }
+
+.contact-section {
+  margin: auto; }
+  .contact-section form {
+    margin-top: 40px;
+    border-radius: 35px;
+    background-color: #00000021;
+    text-align: center;
+    width: 40%;
+    margin: auto; }
+    .contact-section form .inh {
+      padding: 30px;
+      text-align: center; }
+    .contact-section form .form-control {
+      width: 50%;
+      margin: auto; }
+
+.footer {
+  background-color: #292828;
+  text-align: center;
+  color: white;
+  height: 30px; }
+
+/*# sourceMappingURL=style.css.map */
