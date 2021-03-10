@@ -1,0 +1,49 @@
+// START PORTOFOLIO STYLE 
+.portofolio {
+    .portofolio-title{
+        h1{
+            @include title(40px);
+        }
+        p{
+            @include sub_title(1000px);
+        }
+    }
+    .portofolio-content{
+        .portofolio-imgs{
+            // text-align: center;
+            .overlay-relative{
+                position: relative;
+                overflow: hidden;
+                &:hover .overlay{
+                    top:30%;
+                }
+                img{
+                    width: 100%;
+                    // padding:5px;
+                    margin-bottom: 10px;
+                    border-radius: 20px;
+                  //   height: auto%;
+                }
+                .overlay{
+                    background-color:$overlaycolor;
+                    border-radius:20px;
+                    // margin-bottom: 10px;
+                    // width: 300px;
+                    position:absolute;
+                    left: 10%;
+                    top: -100%;
+                    width: 80%;
+                    color:white;
+                    // width:100%;
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                    }
+            }
+        }
+    }
+}
+
+// END PORTOFOLIO STYLE 

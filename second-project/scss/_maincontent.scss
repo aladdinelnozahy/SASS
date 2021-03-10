@@ -1,0 +1,27 @@
+// START MAIN CONTENT STYLE 
+.main-content{
+    background-image: url(../img/office2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: 100% 50%;
+    .main-content-wraper{
+        position: absolute;
+        text-align: center;
+        text-align: justify; 
+        margin-top: 17%;
+        left: 49%;
+        // top: 65%;
+        transform: translate(-50%, -50%);
+        -webkit-transition: translate(-50%, -50%);
+        -moz-transition: translate(-50%, -50%);
+        -ms-transition: translate(-50%, -50%);
+        -o-transition: translate(-50%, -50%);
+        h1{
+            text-align: center;
+            text-align: justify; 
+            color: #333232;
+            font-family: 'lobster',cursive;
+        }
+    }
+}
+// END MAIN CONTENT STYLE 

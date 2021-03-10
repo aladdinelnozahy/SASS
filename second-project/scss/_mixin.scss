@@ -1,0 +1,11 @@
+@mixin title ($font-size){
+    color:$primary-logo;
+    font-size: $font-size;
+    font-family: 'Lobster',cursive;
+}
+@mixin sub_title($fontsize ){
+    // text-transform: uppercase;
+    font-family:'heebo' ;
+    // font-size: 40 px;
+    padding:50px 100px;
+}

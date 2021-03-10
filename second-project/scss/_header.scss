@@ -1,0 +1,39 @@
+// header area
+a{
+    text-decoration: none;
+    &:hover{
+        // color:yellow ;
+        text-decoration: none;
+    }
+}
+// START HEADER STYLE
+header{
+    .logo{
+        color:$primary-logo;
+        font-size:30px;
+        font-family: 'lobster',cursive;
+    }
+    background-color: $primary-color;
+    .menu{
+        padding-top: 10px;
+        text-align:left;
+        li{
+            list-style: none;
+            display:inline-block;
+            padding: 5px;
+            a{
+                color:$primary-logo;
+                padding:0 10 px;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+                &:hover{
+                    color: rgb(223, 236, 44);        
+                }
+            }
+        }
+    }
+}
+// END HEADER STYLE
